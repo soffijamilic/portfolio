@@ -9,6 +9,9 @@ body{
     min-height: 100vh;
     background:#00071C;
 }
+.naslov{
+    display: inline-flex;
+}
 ul{
     position: relative;
     display: flex;
