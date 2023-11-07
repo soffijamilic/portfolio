@@ -7,7 +7,7 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color:#00071C;
+    background:#00071C;
 }
 ul{
     position: relative;
@@ -22,7 +22,7 @@ ul li{
     height: 60px;
     margin: 0px 20px;
 }
-ul li{
+ul li:before{
     content: "";
     position: absolute;
     bottom: -10px;
