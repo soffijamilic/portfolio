@@ -65,10 +65,10 @@ ul li:hover span{
     color:#fff;
     box-shadow: -1px 1px 1px rgba(0,0,0,);
 }
-ul li:hover span:nth-child(5){
+/*ul li:hover span:nth-child(5){
     transform: translate(40px, -40px);
     opacity:1
-} 
+} */
 ul li:hover span:nth-child(4){
     transform: translate(30px, -30px);
     opacity:0.8;
@@ -85,3 +85,15 @@ ul li:hover span:nth-child(1){
     transform: translate(0px, 0px);
     opacity:0.2;
 } 
+/*ul li:nth-child(1):hover span{
+    background: #52E19F !important;
+}*/
+ul li:nth-child(1):hover span{
+    background: #ff166c !important;
+}
+ul li:nth-child(2):hover span{
+    background: #f52e2e !important;
+}
+ul li:nth-child(3):hover span{
+    background: #0078c3 !important;
+}
