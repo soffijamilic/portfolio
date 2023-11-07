@@ -23,7 +23,7 @@ ul li{
     margin: 0px 20px;
 }
 ul li:before{
-    content: "";
+    content: '';
     position: absolute;
     bottom: -10px;
     left: -5px;
@@ -32,4 +32,16 @@ ul li:before{
     background:#2a2a2a ;
     transform-origin: top;
     transform: skewX(-41deg);
+}
+ul li:after{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    top: 5px;
+    left: -9px;
+    width:9px;
+    height:100%;
+    background:#2a2a2a ;
+    transform-origin: right;
+    transform: skewY(-49deg);
 }
