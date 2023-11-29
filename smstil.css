@@ -14,6 +14,9 @@ body{
     color: #7b7979;
     display: inline-flex;
 }
+.naslov:hover{
+    display: none;
+}
 ul{
     position: relative;
     display: flex;
