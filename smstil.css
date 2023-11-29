@@ -17,6 +17,11 @@ body{
 .naslov:hover{
     display: none;
 }
+.naslov:hover:before{
+    color: red;
+    font-size: 24px;
+    content: "ಕನ್ನಡ";
+}
 ul{
     position: relative;
     display: flex;
