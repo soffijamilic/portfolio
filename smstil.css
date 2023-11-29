@@ -18,8 +18,8 @@ body{
     display: none;
 }
 .naslov:hover:before{
-    color: red;
-    font-size: 24px;
+    color: #fff;
+    font-size: 50px;
     content: "Ja sam Sofija!";
 }
 ul{
