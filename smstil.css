@@ -12,12 +12,9 @@ body{
 }
 .naslov{
     color: #7b7979;
-    display: inline-flex;
+    display: inline-block;
 }
-.naslov:hover{
-    display: none;
-}
-.naslov:hover:after{
+body:hover .naslov::after {
     color: #fff;
     font-size: 50px;
     content: "Ja sam Sofija!";
