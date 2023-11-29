@@ -12,12 +12,20 @@ body{
 }
 .naslov{
     color: #7b7979;
-    display: inline-block;
+    display: block;
 }
-body:hover .naslov::after {
-    color: #fff;
-    font-size: 50px;
+.naslov::after {
     content: "Ja sam Sofija!";
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.naslov:hover::after {
+    content: "Ja sam Sofija! ";
+    opacity: 1;
 }
 ul{
     position: relative;
