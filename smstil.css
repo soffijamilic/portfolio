@@ -20,7 +20,7 @@ body{
 .naslov:hover:before{
     color: red;
     font-size: 24px;
-    content: "ಕನ್ನಡ";
+    content: "Ja sam Sofija!";
 }
 ul{
     position: relative;
