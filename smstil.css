@@ -20,19 +20,17 @@ img{
     width: 300px;
     height: 300px;
     border-radius:50%;
+    position: relative;
 }
-.slika:hover{
-    border:#2a2a2a;
-    width: 300px;
-    height: 300px;
+/*img:hover::after {
     content: "Ja sam Sofija!";
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
-}
-
+}*/
 h2{
     color:#7b7979;
     margin-top: 20px;
@@ -103,7 +101,6 @@ ul li:hover span{
     color:#fff;
     box-shadow: -1px 1px 1px rgba(0,0,0,);
 }
-
 ul li:hover span:nth-child(4){
     transform: translate(30px, -30px);
     opacity:0.8;
@@ -120,7 +117,6 @@ ul li:hover span:nth-child(1){
     transform: translate(0px, 0px);
     opacity:0.2;
 } 
-
 ul li:nth-child(1):hover span{
     background: #ff166c !important;
 }
