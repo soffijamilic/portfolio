@@ -9,7 +9,7 @@ body{
     justify-content: center;
     flex-direction: column;
     min-height: 100vh;
-    background:#00071C;
+    background:radial-gradient(#181b24,#2f3443)
 }
 .naslov{
     color: #7b7979;
@@ -21,8 +21,9 @@ body{
     height: 300px;
     border-radius:50%;
     position: relative;
+    margin-bottom: 20px;
 }
-.slika:hover{
+/*.slika:hover{
     content: "Ja sam Sofija!";
     position: absolute;
     top: 50%;
@@ -30,10 +31,23 @@ body{
     transform: translate(-50%, -50%);
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
+}*/
+.naslov::after {
+    content: "Ja sam Sofija!";
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.naslov:hover::after {
+    content: "Ja sam Sofija! ";
+    opacity: 2;
 }
 h2{
     color:#7b7979;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 20px;
 }
 span{
