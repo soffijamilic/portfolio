@@ -28,7 +28,9 @@ img{
     width: 300px;
     height: 300px;
     border-radius:50%;
-
+}
+h2{
+    margin-top: 20px;
 }
 .naslov:hover::after {
     content: "Ja sam Sofija! ";
@@ -40,6 +42,7 @@ ul{
     transform: rotate(-5deg) skew(5deg);
     transform-style: preserve-3d;
     margin-top: 60px; 
+    margin-bottom: 60px;
 }
 ul li{
     position: relative;
