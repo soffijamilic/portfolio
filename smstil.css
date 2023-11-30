@@ -24,9 +24,10 @@ body{
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
 }
-.slika{
+img{
     width: 200px;
-    height: 440px;
+    height: 270px;
+    border-radius:200%;
 }
 .naslov:hover::after {
     content: "Ja sam Sofija! ";
