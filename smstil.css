@@ -16,18 +16,21 @@ body{
     display: block;
     margin-bottom: 150px;
 }
-.naslov::after {
+img{
+    width: 300px;
+    height: 300px;
+    border-radius:50%;
+}
+.slika{
+    border:#2a2a2a;
+}
+.slika::after{
     content: "Ja sam Sofija!";
     position: absolute;
     top: 0;
     left: 0;
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
-}
-img{
-    width: 300px;
-    height: 300px;
-    border-radius:50%;
 }
 h2{
     color:#7b7979;
@@ -37,7 +40,7 @@ h2{
 span{
     color:#7b7979;
 }
-.naslov:hover::after {
+img:hover::after {
     content: "Ja sam Sofija! ";
     opacity: 0.3;
 }
