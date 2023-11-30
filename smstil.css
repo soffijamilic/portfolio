@@ -30,7 +30,11 @@ img{
     border-radius:50%;
 }
 h2{
+    color:#7b7979;
     margin-top: 20px;
+}
+span{
+    color:#7b7979;
 }
 .naslov:hover::after {
     content: "Ja sam Sofija! ";
