@@ -21,10 +21,10 @@ img{
     height: 300px;
     border-radius:50%;
 }
-.slika{
+.slika:hover{
     border:#2a2a2a;
-}
-.slika::after{
+    width: 300px;
+    height: 300px;
     content: "Ja sam Sofija!";
     position: absolute;
     top: 0;
@@ -32,6 +32,7 @@ img{
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
 }
+
 h2{
     color:#7b7979;
     margin-top: 20px;
