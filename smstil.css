@@ -75,8 +75,9 @@ span{
 
 
 
-.interesovanje:hover{
-    text-size-adjust:inherit;
+.interesovanja{
+    position: relative;
+    text-align: center;
 }
 
 
