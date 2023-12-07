@@ -55,6 +55,7 @@ nav img {
     border-radius:50%;
     position: relative;
     margin-bottom: 20px;
+    transition: transform 0.3s ease;
 }
 .naslov::after {
     /*content: "Ja sam Sofija!";*/
