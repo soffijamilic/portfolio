@@ -13,7 +13,7 @@ body{
 }
 nav {
     background-color: #4a4a4a;
-    
+    opacity: 0.5;
     overflow: hidden;
     width: 100%;
     text-align: center;
@@ -43,6 +43,7 @@ nav img {
     float: left;
     margin: 5px 5px; 
     height: 40px; 
+    opacity: 1;
 }
 .naslov{
     color: #7b7979;
