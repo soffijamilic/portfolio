@@ -13,6 +13,7 @@ body{
 }
 nav {
     background-color: #4a4a4a;
+    
     overflow: hidden;
     width: 100%;
     text-align: center;
@@ -23,11 +24,12 @@ nav {
 }
 
 nav a {
-    float: left;
-    display: block;
+
+    display: inline-block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    justify-content: center;
+    padding: 20px 20px;
     text-decoration: none;
 }
 
@@ -39,7 +41,7 @@ nav a:hover {
 
 nav img {
     float: left;
-    margin: 10px 20px; 
+    margin: 5px 5px; 
     height: 40px; 
 }
 .naslov{
