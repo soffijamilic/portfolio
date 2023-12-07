@@ -46,7 +46,7 @@ nav img {
 }
 .naslov{
     color: #7b7979;
-    display: block;
+    display: flex;
     margin-bottom: 150px;
 }
 .slika{
@@ -89,9 +89,6 @@ span{
 }
 
 
-
-
-
 .interesovanja{
     position: relative;
     text-align: center;
@@ -104,13 +101,6 @@ span{
     position: relative;
     text-align: center;
 }
-
-
-
-
-
-
-
 
 ul{
     position: relative;
