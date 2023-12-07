@@ -57,6 +57,9 @@ nav img {
     margin-bottom: 20px;
     transition: transform 0.3s ease;
 }
+.slika:hover {
+    transform: scale(1.2); 
+}
 .naslov::after {
     /*content: "Ja sam Sofija!";*/
     position: absolute;
