@@ -57,6 +57,12 @@ nav img {
     margin-bottom: 20px;
     transition: transform 0.3s ease-out;
 }
+.slika2{
+    display: none;
+}
+.slika2:hover{
+    display: unset;
+}
 .slika:hover {
     transform: scale(1.2); 
 }
