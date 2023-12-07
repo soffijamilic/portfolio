@@ -55,7 +55,7 @@ nav img {
     border-radius:50%;
     position: relative;
     margin-bottom: 20px;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease-out;
 }
 .slika:hover {
     transform: scale(1.2); 
