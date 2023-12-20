@@ -13,7 +13,7 @@ body{
 }
 nav {
     background-color: #56363c;
-    /*opacity: 0.5;*/
+    opacity: 0.9;
     overflow: hidden;
     width: 100%;
     text-align: center;
@@ -59,12 +59,6 @@ nav img {
     margin-bottom: 20px;
     transition: transform 0.3s ease-out;
 }
-/*.slika2{
-    display: none;
-}
-.slika2:hover{
-    display: unset;
-}*/
 .slika:hover {
     transform: scale(1.2); 
 }
