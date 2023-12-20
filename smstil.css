@@ -114,7 +114,7 @@ ul li:before{
     left: -5px;
     width:100%;
     height: 10px;
-    background:#4a4a4a ;
+    background:#56363c ;
     transform-origin: top;
     transform: skewX(-41deg);
 }
@@ -126,7 +126,7 @@ ul li:after{
     left: -9px;
     width:9px;
     height:100%;
-    background:#4a4a4a ;
+    background:#56363c ;
     transform-origin: right;
     transform: skewY(-49deg);
 }
@@ -137,7 +137,7 @@ ul li span{
     width: 100%;
     height: 100%;
     display: flex !important;
-    background:#4a4a4a;
+    background:#56363c;
     justify-content: center;
     align-items: center;
     color:#fff;
