@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script>
+        const filter = (term) => {
+            term = term.toLowerCase().trim()
+            if (term === ''){
+                $("p").show()
+                return
+            }
+            // hvatamo sve paragrafe na stranici
+            let paragraphs = $('p')
+
+            for (let i = 0; i < paragraphs.length; i++)
+            if(! paragraphs[i].innerHTML.toLowerCase().includes(term))
+                    $(paragraphs[i]).hide()
+
+            // for (let p of $("p"))
+            //     if(!p.innerHTML.toLowerCase().includes(term))
+            //         $(p).hide()
+        }
+
+        const renderItem = (item) => {
+            return $(`<p class='zvanica'>${item.ime} ${item.brojZvanica}</p>`)
+        }
+        
+        const renderList = (list) => {
+            list.forEach(element => {
+                $("#lista-zvanica").append(renderItem(element))
+            });
+        }
+
+        const ukupnoZvanica = (list) => {
+            let sum = 0;
+            for (let i = 0; i < list.length; i++)
+                sum += list[i].brojZvanica
+            return sum;
+        }
+        let data;
+        $(document).ready(async () => {
+            const res = await fetch('http://10.0.4.101:3001/zvanice')
+            console.log(res)
+            data = await res.json()
+            $("#ukupno").text(ukupnoZvanica(data));
+            renderList(data)
+        })
+    </script>
+</head>
+<body>
+    <div id="ukupno"></div>
+    <input type="search" name="ime" id="ime-search" oninput="filter(this.value)">
+
+    <div id="lista-zvanica"></div>
+</body>
+</html>
