@@ -71,8 +71,8 @@ h2{
 #mojeDugme {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #3498db;
-    color: #fff;
+    background-color: #2e1c1f;
+    color: #f0c4cd;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -80,7 +80,7 @@ h2{
   }
   
   #mojeDugme:hover {
-    background-color: #2980b9;
+    background-color: #bb7482;
   }
 /*
 
