@@ -60,8 +60,9 @@ nav img {
     margin-bottom: 20px;
     transition: transform 0.3s ease-out;
 }
-.slika:hover {
-    transform: scale(1.2); 
+.slika-kontejner{
+    position: relative;
+    overflow: hidden;
 }
 .svetlost {
     position: absolute;
@@ -70,8 +71,14 @@ nav img {
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0);
-    transition: background 0.3s ease;;
+    transition:0.3s ease;
 }
+.slika-kontejner .svetlost {
+    transform: scale(1.2); 
+    background-color: #ab8990;
+}
+
+
 
 h2{
     color:#f0c4cd;
