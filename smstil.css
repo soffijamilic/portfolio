@@ -116,6 +116,7 @@ h2{
 
 span{
     color:#ab8990;
+    font-size: larger;
 }
 .robot{
     color: #f0c4cd;
@@ -126,7 +127,12 @@ span{
 .muzika{
     color: #f0c4cd;
 }
-
+.kapica{
+    color: #f0c4cd;
+}
+.alati{
+    color: #f0c4cd;
+}
 .interesovanja{
     position: relative;
     text-align: center;
