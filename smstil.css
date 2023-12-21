@@ -116,7 +116,7 @@ h2{
 
 span{
     color:#ab8990;
-    font-size: larger;
+    font-size:x-large;
 }
 .robot{
     color: #f0c4cd;
@@ -133,6 +133,15 @@ span{
 .alati{
     color: #f0c4cd;
 }
+.pevanje{
+    color: #f0c4cd;
+}
+.put{
+    color: #f0c4cd;
+}
+
+
+
 .interesovanja{
     position: relative;
     text-align: center;
