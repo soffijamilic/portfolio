@@ -93,12 +93,13 @@ span{
     position: relative;
     text-align: center;
 }
+/*
 .dugme{
     flex-direction: row;
     border-radius: 50%;
     width: 50px;
     height: 50px;
-}
+}*/
 
 ul{
     position: relative;
