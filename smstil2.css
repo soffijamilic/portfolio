@@ -1,6 +1,6 @@
 *{
     padding:0px;
-    margin:10px;
+    margin:20px;
 }
 
 body{
@@ -16,8 +16,10 @@ h1{
     color: #f0c4cd;
 }
 span{
-    color: #f0c4cd;
-    justify-content: center;
-    align-items: center;
+    color: #ab8990;
+    font-size: larger;
+}
+.smajli{
+    color:#331f23;
 }
   
