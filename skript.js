@@ -1,5 +1,5 @@
 document.getElementById("mojeDugme").addEventListener("click", function() {
-    window.location.href = "smbio.html";
+    window.open("smbio.html","_blank");
   });
 
 
