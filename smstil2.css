@@ -14,3 +14,18 @@ body{
 h1{
     color: #f0c4cd;
 }
+#vratiNazad {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #aa7681; 
+    color: #f0c4cd; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #vratiNazad:hover {
+    background-color: #56363c; 
+  }
+  
